@@ -11,24 +11,24 @@
         "Ar40": "Ar40"
     },
     "collection_version": "1.0:2.0",
-    "comment": "K:1 DM",
+    "comment": "K:1 DM re-extract",
     "commit": "3e7d26d0437aa93685eb7481b4fa8d2f560b5d66",
     "conditionals": [
         {
             "analysis_types": [],
             "frequency": 5,
-            "hash_id": -7778001064982614362,
-            "level": null,
+            "hash_id": -473343288817735818,
+            "level": 30,
             "location": "scripts/conditionals/detrital.yaml",
             "ntrips": 1,
             "start_count": 40,
-            "teststr": "age>100.0"
+            "teststr": "age>30.0"
         },
         {
             "analysis_types": [],
             "frequency": 5,
-            "hash_id": -5032509830479543930,
-            "level": null,
+            "hash_id": 894094520941005413,
+            "level": 30,
             "location": "scripts/conditionals/detrital.yaml",
             "ntrips": 1,
             "start_count": 40,
@@ -37,8 +37,8 @@
         {
             "analysis_types": [],
             "frequency": 5,
-            "hash_id": 4810620587540408036,
-            "level": null,
+            "hash_id": -4700022207885172477,
+            "level": 30,
             "location": "scripts/conditionals/detrital.yaml",
             "ntrips": 1,
             "start_count": 5,
@@ -47,8 +47,8 @@
         {
             "analysis_types": [],
             "frequency": 5,
-            "hash_id": 1109838716342356967,
-            "level": 10,
+            "hash_id": 426532619668726707,
+            "level": 30,
             "location": "setupfiles/spectrometer/default_conditionals.yaml",
             "ntrips": 3,
             "start_count": 0,
@@ -57,8 +57,8 @@
         {
             "analysis_types": [],
             "frequency": 5,
-            "hash_id": -4285348822844886562,
-            "level": 10,
+            "hash_id": -499642833920535126,
+            "level": 30,
             "location": "setupfiles/spectrometer/default_conditionals.yaml",
             "ntrips": 3,
             "start_count": 75,
@@ -67,8 +67,8 @@
         {
             "analysis_types": [],
             "frequency": 3,
-            "hash_id": 5948131634079443011,
-            "level": 10,
+            "hash_id": 7976687640678683767,
+            "level": 30,
             "location": "setupfiles/spectrometer/default_conditionals.yaml",
             "ntrips": 3,
             "start_count": 0,
@@ -107,9 +107,9 @@
             {
                 "device": "EnvironmentalMonitor",
                 "name": "Lab Hum.",
-                "pub_date": "2019-07-03T05:58:16",
+                "pub_date": "2019-07-03T08:27:02",
                 "title": "iServer Hum.",
-                "value": 44.8
+                "value": 43.7
             }
         ],
         "lab_pneumatics": [
@@ -123,25 +123,25 @@
             {
                 "device": "AirPressure2",
                 "name": "Pressure2",
-                "pub_date": "2019-07-02T13:34:36",
+                "pub_date": "2019-07-03T08:21:46",
                 "title": "Lab",
-                "value": 87.5
+                "value": 87.6
             },
             {
                 "device": "MicroBoneGaugeController",
                 "name": "JanDecabinPressure",
-                "pub_date": "2019-07-03T08:11:34",
+                "pub_date": "2019-07-03T08:26:35",
                 "title": "Jan Decabin",
-                "value": 6.9
+                "value": 6.3
             }
         ],
         "lab_temperatures": [
             {
                 "device": "EnvironmentalMonitor",
                 "name": "Lab Temp.",
-                "pub_date": "2019-07-03T08:08:56",
+                "pub_date": "2019-07-03T08:18:59",
                 "title": "iServer Temp.",
-                "value": 72.6
+                "value": 73.0
             },
             {
                 "device": "Chiller",
@@ -214,14 +214,18 @@
     "rlocation": "",
     "sample": "AR3/SKR/12",
     "source": {
-        "emission": 530.518,
-        "trap": 198.371
+        "emission": 531.248,
+        "trap": 198.706
     },
     "spec_sha": "79ab20e2f77567f677eacd2d7793c15a62382b75",
-    "timestamp": "2019-07-03T08:13:56.881096",
-    "tripped_conditional": null,
+    "timestamp": "2019-07-03T08:30:01.289073",
+    "tripped_conditional": {
+        "context": "{'Ar39': 0.10332493685896209}",
+        "hash_id": 894094520941005413,
+        "teststr": "Ar39<0.5"
+    },
     "unit": null,
     "username": "",
-    "uuid": "8dc338da-0528-40e7-9784-72034a587139",
+    "uuid": "9a814eec-6189-4007-966a-a6576e35d801",
     "whiff_result": "run_remainder"
 }
